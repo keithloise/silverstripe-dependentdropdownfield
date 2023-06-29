@@ -81,7 +81,7 @@ class DependentListboxField extends ListboxField
             }
         }
 
-        $response->setBody(Convert::array2json($results));
+        $response->setBody(json_encode($results));
 
         return $response;
     }

@@ -42,5 +42,4 @@ jQuery.entwine("dependentdropdown", function ($) {
 			this.empty().removeAttr("disabled").next().removeClass('chzn-disabled');
 		}
 	});
-
 });
